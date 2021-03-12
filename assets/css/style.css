@@ -20,3 +20,30 @@ header {
     margin-left: 20px;
     text-decoration: none;
 }
+
+.welcome {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+}
+
+.guideline {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.guideline > li {
+    margin-top: 14px;
+}
