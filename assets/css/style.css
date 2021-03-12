@@ -47,3 +47,33 @@ header {
 .guideline > li {
     margin-top: 14px;
 }
+
+#programming, #english {
+    width: 100%;
+}
+
+#programming > h2,
+#english > h2
+{
+    font-size: 40px;
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.description {
+    width: 50%;
+}
+
+.contents > img {
+    height: 150px;
+    margin: 0 20px;
+}
